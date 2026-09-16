@@ -1,3 +1,5 @@
+\\(1.1)Declare variáveis para armazenar o nome, idade, altura e se uma pessoa possui carteira de motorista (verdadeiro/falso).
+Atribua valores a elas e exiba no console de forma formatada.
 #include <stdio.h>
 #include<stdbool.h>
 int main()
