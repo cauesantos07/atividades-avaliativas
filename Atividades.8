@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+float num1, num2;
+char operacao;
+
+    printf("Digite dois numeros: ");
+    scanf( "%f %f", &num1, &num2);
+   
+    printf("Digite a operacao (+, -, *, /): ");
+    scanf(" %c", &operacao);
+
+
+switch(operacao)
+{
+case '+':
+
+    printf("%f",num1 + num2);
+    break;
+
+case '-':
+    printf("%f", num1 - num2);
+    break;
+
+case '*':
+    printf("%f", num1 * num2);
+    break;
+ case '/':
+    printf("%f", num1 / num2);
+    break;    
+
+
+
+
+
+}
+}
