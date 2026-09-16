@@ -1,0 +1,26 @@
+\\(1.2)Crie duas variáveis A = 5 e B = 10 Faça a troca dos valores entre elas de modo que
+A passe a valer 10 е в passe a valer 5.
+#include <stdio.h>
+
+int main()
+{
+   
+ int a = 5;
+ int b = 10;
+
+    int temp;
+    printf("\nValores atuais: A = %i e B = %i ", a, b);
+    temp = a;
+    a = b;
+    b = temp;
+    printf("\nValores modificados: A = %i e B = %i ", a, b);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
