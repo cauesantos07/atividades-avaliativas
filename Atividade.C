@@ -1,5 +1,5 @@
 #include <stdio.h>
-   //Leia um número e exiba se ele é par ou ímpar
+   //(3.1) Leia um número e exiba se ele é par ou ímpar
 int main()
 {
 
